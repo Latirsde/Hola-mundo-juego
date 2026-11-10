@@ -191,6 +191,46 @@
         "name": "fall.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "an-8-bit-retro-styled-pixel-art-illustration-of-a-goblin-free-png-1869175393.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "an-8-bit-retro-styled-pixel-art-illustration-of-a-goblin-free-png-1869175393.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "alado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "alado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alado2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -250,44 +290,13 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5468750000000001,
+        "zoomFactor": 0.41943397827590645,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "Puntaje",
-          "persistentUuid": "9654d1c1-6055-406a-a6c0-8d90ac28c128",
-          "type": "number",
-          "value": 0
-        },
-        {
-          "name": "Vidas",
-          "persistentUuid": "623db70d-5efa-4f98-b7ec-234eab20bd58",
-          "type": "number",
-          "value": 3
-        },
-        {
-          "name": "CheckpointX",
-          "persistentUuid": "7ccf6a92-d26d-47b1-92e3-db3a19561c54",
-          "type": "number",
-          "value": 100
-        },
-        {
-          "name": "CheckpointY",
-          "persistentUuid": "47097077-63f1-4c11-ba2b-21f2f55f5791",
-          "type": "number",
-          "value": 500
-        },
-        {
-          "name": "NivelActual",
-          "persistentUuid": "aeb3e308-4775-4ff0-8149-b87092e6c2e7",
-          "type": "number",
-          "value": 1
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -347,8 +356,8 @@
           "name": "Avatar",
           "persistentUuid": "c3b1c1c4-5e9f-44ec-b8cc-869e3aee974c",
           "width": 0,
-          "x": 106,
-          "y": 448,
+          "x": 115,
+          "y": 527,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -449,8 +458,8 @@
           "name": "Plataforma_Tierra",
           "persistentUuid": "33ff24f3-56d3-4ed7-a82d-f4eea2e8a1ce",
           "width": 127,
-          "x": 1607,
-          "y": 243,
+          "x": 1614,
+          "y": 156,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -466,8 +475,277 @@
           "name": "Plataforma_Tierra",
           "persistentUuid": "3ca38768-ceb1-409d-aac7-03ecb704c032",
           "width": 127,
-          "x": 1804,
-          "y": 154,
+          "x": 1777,
+          "y": 109,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "223852a7-a3a9-429c-974d-8e704ce771cd",
+          "width": 1123,
+          "x": 1937,
+          "y": 57,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Golem_Sombrio",
+          "persistentUuid": "6676ae90-069f-4b22-85e4-1b3f8869bd61",
+          "width": 125,
+          "x": 2624,
+          "y": -55,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tope_Izquierda",
+          "persistentUuid": "ab96290c-a649-46f7-9c78-3863aecbe8a4",
+          "width": 0,
+          "x": 2327,
+          "y": -1,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tope_Derecha",
+          "persistentUuid": "f62fb939-4605-4853-b42b-cbeb82f75c66",
+          "width": 0,
+          "x": 3015,
+          "y": 1,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Espectro_Alado",
+          "persistentUuid": "8c193ad5-3e1b-4f80-ad85-23448cc22492",
+          "width": 0,
+          "x": 4594,
+          "y": 185,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "2aaef295-dda4-405c-8cc6-2e5a2a1e817e",
+          "width": 127,
+          "x": 3094,
+          "y": 186,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "1039ce11-478e-42b6-aa42-5ce67c9d4d50",
+          "width": 127,
+          "x": 3271,
+          "y": 122,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 93,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "3ab43688-4443-484b-96cb-1d80837bbf7d",
+          "width": 127,
+          "x": 3434,
+          "y": 242,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 234,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "df28b033-aed5-4731-bd80-a11932b44f39",
+          "width": 227,
+          "x": 4500,
+          "y": 363,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "678f0786-058d-4452-9eb2-12b00b71b02a",
+          "width": 127,
+          "x": 3593,
+          "y": 333,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "0eb15c70-82c3-4f62-9f1c-17fa145db8cf",
+          "width": 127,
+          "x": 3858,
+          "y": 333,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "0d7925eb-7ce6-4fea-8026-94bb4c7d1d0b",
+          "width": 127,
+          "x": 4149,
+          "y": 333,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "33e3b4c3-67e6-4b06-a06a-225025bd5c8a",
+          "width": 127,
+          "x": 4500,
+          "y": 600,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "8c093178-f823-4c4a-ae7a-76e07a795c41",
+          "width": 127,
+          "x": 4601,
+          "y": 600,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "ea9bf602-353c-4eb6-be41-56f4f89ab393",
+          "width": 127,
+          "x": 4366,
+          "y": 536,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Plataforma_Tierra",
+          "persistentUuid": "37531e79-52d1-4053-a4db-fa391f750f16",
+          "width": 127,
+          "x": 4235,
+          "y": 455,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -620,42 +898,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "stand1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 16,
-                            "y": 8
-                          },
-                          {
-                            "x": 72,
-                            "y": 8
-                          },
-                          {
-                            "x": 72,
-                            "y": 105
-                          },
-                          {
-                            "x": 16,
-                            "y": 105
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "stand2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -946,6 +1188,308 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Golem_Sombrio",
+          "persistentUuid": "164194ca-062e-4815-8939-d7bfed1c73b4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "varIrIzquierda",
+              "persistentUuid": "a1c495c1-f280-402c-9137-ed0064cf8142",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "an-8-bit-retro-styled-pixel-art-illustration-of-a-goblin-free-png-1869175393.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 214,
+                            "y": 214
+                          },
+                          {
+                            "x": 751,
+                            "y": 214
+                          },
+                          {
+                            "x": 751,
+                            "y": 873
+                          },
+                          {
+                            "x": 214,
+                            "y": 873
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tope_Izquierda",
+          "persistentUuid": "de2e57f2-dd85-4f6a-aa8e-62cc48b4fe8d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20,
+                            "y": 20
+                          },
+                          {
+                            "x": 25,
+                            "y": 20
+                          },
+                          {
+                            "x": 25,
+                            "y": 25
+                          },
+                          {
+                            "x": 20,
+                            "y": 25
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tope_Derecha",
+          "persistentUuid": "9634b406-875a-4293-b004-48ab4b22a667",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 26,
+                            "y": 26
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 31,
+                            "y": 31
+                          },
+                          {
+                            "x": 26,
+                            "y": 31
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Espectro_Alado",
+          "persistentUuid": "e85a992a-5fe3-4c9c-ba0d-832e81d5a984",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "OrigenY",
+              "persistentUuid": "932df165-e2f5-4d46-a536-df8511e69f4b",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "DireccionY",
+              "persistentUuid": "d3f3120a-f673-4012-8b3c-8cf966c83307",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "alado1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 3
+                          },
+                          {
+                            "x": 114,
+                            "y": 3
+                          },
+                          {
+                            "x": 114,
+                            "y": 63
+                          },
+                          {
+                            "x": 4,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "alado2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 3
+                          },
+                          {
+                            "x": 114,
+                            "y": 3
+                          },
+                          {
+                            "x": 114,
+                            "y": 63
+                          },
+                          {
+                            "x": 4,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -962,6 +1506,18 @@
           },
           {
             "objectName": "Avatar"
+          },
+          {
+            "objectName": "Golem_Sombrio"
+          },
+          {
+            "objectName": "Tope_Izquierda"
+          },
+          {
+            "objectName": "Tope_Derecha"
+          },
+          {
+            "objectName": "Espectro_Alado"
           }
         ]
       },
@@ -1159,6 +1715,488 @@
                 "Animation",
                 "=",
                 "3"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Tope_Izquierda"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Tope_Derecha"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "Tope_Derecha",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "varIrIzquierda",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "Tope_Izquierda",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "varIrIzquierda",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "varIrIzquierda",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "0",
+                "80",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "varIrIzquierda",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "180",
+                "80",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Avatar",
+                "Golem_Sombrio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Avatar",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Golem_Sombrio",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SetCanJump"
+              },
+              "parameters": [
+                "Avatar",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Avatar",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Puntaje",
+                "+",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Avatar",
+                "Golem_Sombrio",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PlatformBehavior::IsFalling"
+              },
+              "parameters": [
+                "Avatar",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Vidas",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Avatar",
+                "=",
+                "GlobalVariable(CheckpointX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Avatar",
+                "=",
+                "GlobalVariable(CheckpointY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "OrigenY",
+                "=",
+                "Espectro_Alado.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                ">",
+                "Espectro_Alado.Variable(OrigenY) + 100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "DireccionY",
+                "=",
+                "-1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "<",
+                "Espectro_Alado.Variable(OrigenY) - 100"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "DireccionY",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Avatar",
+                "Espectro_Alado",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Vidas",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Avatar",
+                "=",
+                "GlobalVariable(CheckpointX)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Avatar",
+                "=",
+                "GlobalVariable(CheckpointY)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "DireccionY",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "90",
+                "80",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "DireccionY",
+                "=",
+                "-1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Espectro_Alado",
+                "270",
+                "80",
+                ""
               ]
             }
           ]
